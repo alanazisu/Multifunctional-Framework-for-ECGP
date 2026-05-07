@@ -1,4 +1,4 @@
-# Power-Load-Generation-Forecast ⚡
+# Power-Load-Generation-Forecasting
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-2.0+-orange?logo=numpy)](https://numpy.org/)
