@@ -12,7 +12,6 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Datasets](#datasets)
 - [Citation](#citation)
 - [License](#license)
@@ -39,48 +38,6 @@ pip install -r requirements.txt
 ```
 
 **Requirements:** Python 3.8+, NumPy, pandas, scikit-learn, scipy, matplotlib, seaborn
-
-
-## Project Structure
-
-```
-Power-Load-Generation-Forecast/
-│
-├── README.md                        # This file
-├── requirements.txt                 # Python dependencies
-├── config.py                        # All hyperparameters and paths
-├── main.py                          # CLI entry point
-│
-├── data/
-│   ├── __init__.py
-│   └── generate_datasets.py         # Synthetic dataset generator
-│                                    # (household consumption + PV solar)
-│
-├── models/
-│   ├── __init__.py
-│   ├── spatial_network.py           # Stream 1: Energy Spatial Network (ESN)
-│   ├── temporal_network.py          # Stream 2: Energy Temporal Network (ETN)
-│   ├── fusion.py                    # Fusion layer (learned alpha-weighting)
-│   └── two_stream_network.py        # Top-level TSN wrapper
-│
-├── training/
-│   ├── __init__.py
-│   ├── trainer.py                   # Training loop (GBM + RF + Ridge fusion)
-│   └── loss.py                      # Loss functions (MSE, MAE, Huber)
-│
-├── evaluation/
-│   ├── __init__.py
-│   ├── metrics.py                   # MSE, RMSE, MAE, MAPE, SMAPE, R2, CVRMSE
-│   └── evaluator.py                 # Multi-granularity evaluation engine
-│
-├── figures/
-│   ├── __init__.py
-│   └── plotter.py                   # 14 publication-quality figure generators
-│
-├── checkpoints/                     # Saved model weights (auto-created, git-ignored)
-├── results/                         # CSV metric tables  (auto-created)
-└── figures/                         # Output PNG figures (auto-created, git-ignored)
-```
 
 ---
 
