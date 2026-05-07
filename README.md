@@ -5,7 +5,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> **Energy-TSN** — A Two-Stream Network for joint prediction of household energy **consumption** and PV solar **generation**, capturing both spatial cross-feature patterns and temporal time-series dynamics through parallel independent streams fused at inference.
+> **Energy-TSN** -A Two-Stream Network for joint prediction of household energy **consumption** and PV solar **generation**, capturing both spatial cross-feature patterns and temporal time-series dynamics through parallel independent streams fused at inference.
 
 ---
 
@@ -58,9 +58,8 @@ pip install -r requirements.txt
 
 ```bibtex
 @misc{power_load_generation_forecast_2026,
-  title   = {Power-Load-Generation-Forecast: Two-Stream Network for
-             Joint Household Energy and PV Solar Prediction},
-  author  = {Alana Zisu},
+  title   = {A Multi-Functional Spatiotemporal Learning Framework for Power Load and Photovoltaic Generation Forecasting in Net-Zero Energy Buildings},
+  author  = {Sultan Alanazi},
   year    = {2026},
   url     = {https://github.com/alanazisu/Power-Load-Generation-Forecast}
 }
@@ -70,4 +69,4 @@ pip install -r requirements.txt
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License-see [LICENSE](LICENSE) for details.
