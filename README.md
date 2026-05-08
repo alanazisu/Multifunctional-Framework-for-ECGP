@@ -47,7 +47,7 @@ pip install -r requirements.txt
 - https://www.kaggle.com/datasets/samxsam/household-energy-consumption
 
 ### Solar Power Generation Data
-- \url{https://dkasolarcentre.com.au/download?location=alice-springs}
+- {https://dkasolarcentre.com.au/download?location=alice-springs}
 ---
 
 ## Citation
